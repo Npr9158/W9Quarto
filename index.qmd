@@ -10,3 +10,23 @@ Enter introduction here.
 ```{r}
 1 +1
 ```
+
+```{r}
+rm(list = ls())  
+data(iris)
+head(iris)
+summary(iris)
+
+
+```
+
+```{r}
+plot(iris$Petal.Length, iris$Sepal.Length,
+     main = "Petal length vs. Sepal Length",
+     xlab = "Petal length",
+     ylab = "Sepal length",
+     pch = 16,
+     col = "seagreen",
+     cex = 1.2
+)
+```
